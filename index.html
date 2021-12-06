@@ -8,9 +8,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<img src="./rem.jpg" alt="">
-<img src="./rem.jpg" alt="">
-<video src="https://youtu.be/Il0S8BoucSA"></video>
-<h1>Алия Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ullam voluptate. Optio dolore velit magnam perferendis fugiat eos, accusantium omnis ullam doloremque in rerum autem, blanditiis vitae harum molestias. Asperiores.</h1>
+    <header>
+        <button onclick="typeWriter()">&#10084 &#10084 &#10084 ЖМИ &#10084 &#10084 &#10084</button>
+
+        <p id="demo"></p>
+      
+        <script>
+      
+          var i = 0;
+          var  txt = 'Скажи кто он? правда у тебя есть парень котрый тебе нравится? ';
+          var speed = 100;
+      
+          function typeWriter() {
+            if (i < txt.length) {
+              document.getElementById("demo").innerHTML += txt.charAt(i);
+              i++;
+              setTimeout(typeWriter, speed);
+            }
+          }
+        </script>
+
+
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <img src="./rem.jpg" alt="">
+<img src="./rem.jpg" alt=""> -->
 </body>
 </html>

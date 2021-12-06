@@ -1,8 +1,26 @@
 body{
     margin: 0;
-    background:blue;
+  background-image: url(./japon.jpg);
 }
-h1{
-    color: red;
-    font-size: 50px;
+#demo{
+    color:red;
+    font-size: 20px;
+     font-family: fantasy;
+   background-color: white;
+   justify-content: space-around;
+   text-align: center;
+   width: 80%;
+   margin-left: 10%;
+   text-shadow: blue 5px;
+}
+button{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    margin-left: 42%;
+    border: solid 10px red;
+    border-radius: 20px;
+    margin-top: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
