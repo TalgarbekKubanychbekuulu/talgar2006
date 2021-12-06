@@ -1,14 +1,19 @@
 body{
     margin: 0;
  background-image: url(./japon2.jpg);
-  
+ text-shadow: rgb(157, 157, 248) 3px 3px;
+ text-shadow: rgb(157, 157, 248) 3px 3px;
+   justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 #demo{
     color:white;
     font-size: 20px;
      font-family: fantasy;
    width: 40%;
-   margin-left: 7%;
+   margin-left: 5%;
    text-shadow: rgb(157, 157, 248) 3px 3px;
    justify-content: center;
     align-items: center;
@@ -19,7 +24,7 @@ button{
     font-size: 20px;
     color: white;
     background-color: red;
-    margin-left:20%;
+    margin-left:12%;
     border: solid 10px red;
     border-radius: 20px;
     margin-top: 1%;
@@ -28,8 +33,8 @@ button{
     
 }
 video{
-    position: absolute;
-    margin-left:53%;
+    
+    margin-left:10%;
     margin-bottom: 70px;
     opacity: .8;
     border-radius: 10%;
